@@ -1,6 +1,6 @@
 CREATE DATABASE HN_ONE;
 
-CREATE TABLE hn_posts_score
+CREATE TABLE HN_ONE.hn_posts_score
 (
   id INT unsigned NOT NULL, # Unique ID for the record
   author VARCHAR(150) NOT NULL, # Author of the article
@@ -11,7 +11,7 @@ CREATE TABLE hn_posts_score
   PRIMARY KEY (id) # Make the id the primary key
 );
 
-CREATE TABLE hn_posts_no_score
+CREATE TABLE HN_ONE.hn_posts_no_score
 (
   id INT unsigned NOT NULL, # Unique ID for the record
   author VARCHAR(150) NOT NULL, # Author of the article
