@@ -1,7 +1,5 @@
 CREATE DATABASE HN_ONE;
 
-USE HN_ONE;
-
 CREATE TABLE hn_posts_score
 (
   id INT unsigned NOT NULL, # Unique ID for the record
